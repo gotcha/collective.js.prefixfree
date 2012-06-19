@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.prefixfree">
+
+  <include package="Products.GenericSetup" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="collective.js.prefixfree"
+      directory="profiles/default"
+      description="Break free from CSS prefix hell!"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <browser:resourceDirectory
+        name="prefixfree"
+        directory="static"
+        layer=".interfaces.IThemeSpecific"
+        />
+
+</configure>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- This file registers the browserlayer so our custom views do not appear in default plone site -->
+
+<layers>
+  <layer name="Collective JS PrefixFree"
+    interface="collective.js.prefixfree.interfaces.IThemeSpecific"
+  />
+</layers>

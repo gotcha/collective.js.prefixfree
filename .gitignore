@@ -1,0 +1,11 @@
+*.egg-info
+buildout.cfg
+bin
+lib
+include
+.installed.cfg
+parts
+var
+.mr.developer.cfg
+devel/
+develop-eggs/

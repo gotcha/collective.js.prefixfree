@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="collective.js.prefixfree">
+
+  <include file="configure.zcml" />
+
+  <genericsetup:registerProfile
+      name="testing"
+      title="TESTS: collective.js.prefixfree"
+      directory="profiles/testing"
+      description="Break free from CSS prefix hell!"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
