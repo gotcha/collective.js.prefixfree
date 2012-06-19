@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.0dev (unreleased)
--------------------
+1.0a1 (2012-06-19)
+------------------
 
 - StyleFix 1.0.2 + PrefixFree 1.0.6 -- Initial release
   [gotcha]
