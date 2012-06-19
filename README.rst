@@ -8,4 +8,6 @@ Break free from CSS prefix hell!
 It works behind the scenes, adding the current browser’s prefix to any
 CSS code, only when it’s needed. 
 
+.. image:: https://secure.travis-ci.org/gotcha/collective.js.prefixfree.png
+
 .. contents::
