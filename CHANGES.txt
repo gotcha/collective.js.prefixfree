@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.0 (unreleased)
-----------------
+1.0.a2 (2012-06-20)
+-------------------
 
 - StyleFix 1.0.3 + PrefixFree 1.0.6 -- Initial release
 
