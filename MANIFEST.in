@@ -1,0 +1,5 @@
+exclude buildout.cfg travis.cfg dev.cfg bootstrap.py Makefile MANIFEST.in
+
+recursive-include src *
+
+global-exclude *pyc
